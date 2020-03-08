@@ -3,8 +3,9 @@
 <suite name="TestSuite">
 	<test name="Test">
 		<classes>
-			<!-- <class name="io.vlabs.testng.data.TC_001"></class> -->
-			<class name="io.vlabs.testng.data.TC_Selenium_01"></class>
+			<class name="io.vlabs.testng.data.TC_001"/>
+			<class name="io.vlabs.testng.data.TC_002"/>
+			<!-- <class name="io.vlabs.testng.data.TC_Selenium_01"/> -->
 		</classes>
 	</test>
 </suite>

@@ -16,17 +16,17 @@ public class TC_001 {
 
 	@BeforeSuite
 	public void method2() {
-		System.out.println("Before Suite method");
+		System.out.println("Before Suite1 method");
 	}
 
 	@BeforeTest
 	public void method5() {
-		System.out.println("\tBefore Test method");
+		System.out.println("\tBefore Test1 method");
 	}
 
 	@BeforeClass
 	public void method1() {
-		System.out.println("\t\tBefore Class method");
+		System.out.println("\t\tBefore Class1 method");
 	}
 
 	@BeforeGroups
@@ -36,37 +36,37 @@ public class TC_001 {
 
 	@BeforeMethod
 	public void method4() {
-		System.out.println("\t\t\tBefore Method method");
+		System.out.println("\t\t\tBefore Method1 method");
 	}
 
 	@Test
 	public void method6() {
-		System.out.println("\t\t\t\tTest method");
+		System.out.println("\t\t\t\tTest1");
 	}
 
 	@Test
 	public void method12() {
-		System.out.println("\t\t\t\tNew Test method");
+		System.out.println("\t\t\t\tNew Test1");
 	}
 
 	@AfterMethod
 	public void method10() {
-		System.out.println("\t\t\tAfter Method method");
+		System.out.println("\t\t\tAfter Method1 method");
 	}
 
 	@AfterClass
 	public void method7() {
-		System.out.println("\t\tAfter Class method");
+		System.out.println("\t\tAfter Class1 method");
 	}
 
 	@AfterTest
 	public void method11() {
-		System.out.println("\tAfter Test method");
+		System.out.println("\tAfter Test1 method");
 	}
 
 	@AfterSuite
 	public void method8() {
-		System.out.println("After Suite method");
+		System.out.println("After Suite1 method");
 	}
 
 	@AfterGroups
