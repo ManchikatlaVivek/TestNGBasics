@@ -1,4 +1,4 @@
-package io.vlabs.testng.data;
+package io.vlabs.testng.testdata;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterGroups;
@@ -12,66 +12,66 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TC_002 {
+public class TC_001 {
 
 	@BeforeSuite
 	public void method2() {
-		System.out.println("Before Suite2 method");
+		System.out.println("Before Suite1 method");
 	}
 
 	@BeforeTest
 	public void method5() {
-		System.out.println("\tBefore Test2 method");
+		System.out.println("\tBefore Test1 method");
 	}
 
 	@BeforeClass
 	public void method1() {
-		System.out.println("\t\tBefore Class2 method");
+		System.out.println("\t\tBefore Class1 method");
 	}
 
 	@BeforeGroups
 	public void method3() {
-		System.out.println("Before Groups2 method");
+		System.out.println("Before Groups method");
 	}
 
 	@BeforeMethod
 	public void method4() {
-		System.out.println("\t\t\tBefore Method2 method");
+		System.out.println("\t\t\tBefore Method1 method");
 	}
 
 	@Test
 	public void method6() {
-		System.out.println("\t\t\t\tTest2");
+		System.out.println("\t\t\t\tTest1");
 	}
 
 	@Test
 	public void method12() {
-		System.out.println("\t\t\t\tNew Test2");
+		System.out.println("\t\t\t\tNew Test1");
 	}
 
 	@AfterMethod
 	public void method10() {
-		System.out.println("\t\t\tAfter Method2 method");
+		System.out.println("\t\t\tAfter Method1 method");
 	}
 
 	@AfterClass
 	public void method7() {
-		System.out.println("\t\tAfter Class2 method");
+		System.out.println("\t\tAfter Class1 method");
 	}
 
 	@AfterTest
 	public void method11() {
-		System.out.println("\tAfter Test2 method");
+		System.out.println("\tAfter Test1 method");
 	}
 
 	@AfterSuite
 	public void method8() {
-		System.out.println("After Suite2 method");
+		System.out.println("After Suite1 method");
 	}
 
 	@AfterGroups
 	public void method9() {
-		System.out.println("After Groups2 method");
+		System.out.println("After Groups method");
 	}
 
 }

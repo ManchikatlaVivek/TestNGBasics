@@ -1,4 +1,4 @@
-package io.vlabs.testng.data;
+package io.vlabs.testng.testdata;
 
 import java.util.concurrent.TimeUnit;
 
